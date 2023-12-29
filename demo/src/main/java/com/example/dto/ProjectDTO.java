@@ -12,7 +12,7 @@ import lombok.Data;
 public class ProjectDTO {
 
     private int id;
-    //anotation
+
     @NotBlank
     @Size(min = 5, max = 50, message = "From 5 to 50")
     private  String title;
